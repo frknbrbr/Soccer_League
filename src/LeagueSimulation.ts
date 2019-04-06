@@ -18,7 +18,7 @@ export const simulateLeague = (teams: Team[]): void  =>  {
     teams.sort((a: Team, b: Team): number => {
         if (a.getTotalPoints() < b.getTotalPoints()) { return 1; }
         if (a.getTotalPoints() > b.getTotalPoints()) { return -1; }
-        if (a.getTotalPoints() > b.getTotalPoints()) {
+        if (a.getTotalPoints() === b.getTotalPoints()) {
             if (a.getAverageCount() < b.getAverageCount()) { return 1; }
             if (a.getAverageCount() > b.getAverageCount()) { return -1; }
             return 0;

@@ -19,7 +19,7 @@ exports.simulateLeague = function (teams) {
         if (a.getTotalPoints() > b.getTotalPoints()) {
             return -1;
         }
-        if (a.getTotalPoints() > b.getTotalPoints()) {
+        if (a.getTotalPoints() === b.getTotalPoints()) {
             if (a.getAverageCount() < b.getAverageCount()) {
                 return 1;
             }
