@@ -3,12 +3,12 @@ exports.__esModule = true;
 var Team = /** @class */ (function () {
     function Team(teamName, weight) {
         this.teamName = teamName;
-        this.totalPoints = 0;
-        this.averageCount = 0;
         this.numberOfMatchPlayed = 0;
         this.victoriesCount = 0;
         this.drawsCount = 0;
         this.losesCount = 0;
+        this.totalPoints = 0;
+        this.averageCount = 0;
         this.weight = weight;
     }
     Team.prototype.getTeamName = function () {

@@ -1,9 +1,9 @@
-#Soccer League Simulation
+# Soccer League Simulation
 
-###About Soccer League Simulation
+#### About Soccer League Simulation
 Soccer League Simulation is a basically a match simulator. However, it does these simulations with weighted randomizing. After that, it makes every team to match with each other twice. Lastly, it compares them by total point unless their point are equal. If that is the case, it compares their averages.
 
-####Used Technologies
+#### Used Technologies
 * Typescript
 * Javascript
 * TSlint
