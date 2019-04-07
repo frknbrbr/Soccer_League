@@ -1,14 +1,36 @@
-# Soccer League Simulation
+#Soccer League Simulation
 
-I created a Soccer League simulation program with Typescript. 
-I used TSlint as a linter for statical code analysis. 
-If you want to analyze my source codes you can directly go to "src" folder.
+###About Soccer League Simulation
+Soccer League Simulation is a basically a match simulator. However, it does these simulations with weighted randomizing. After that, it makes every team to match with each other twice. Lastly, it compares them by total point unless their point are equal. If that is the case, it compares their averages.
 
-If you only want to run the program:
-  -From terminal go to repos folder
-  -Type "npm install"(I assume you have Node.js)
-  -After that, type "npm run start" and it will run the program for you.
-Sample output: 
+####Used Technologies
+* Typescript
+* Javascript
+* TSlint
+* Installation
+
+-> Change Directory
+```
+cd /var/www
+```
+->Clone the repository
+```
+git clone https://github.com/frknbrbr/Soccer_League.git .
+```
+-> Install Packages
+```
+npm install
+```
+-> Start App
+```
+cd /var/www
+npm run start
+```
+-> If you want to compile it by yoursef(However, it is already compiled).
+```
+cd /var/www
+npm run compile
+```
 
 ![""](./sample_output/output.png)
 
